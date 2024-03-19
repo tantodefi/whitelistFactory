@@ -4,7 +4,7 @@ pragma solidity ^0.8.24;
 import "./_ownable.sol";
 
 /// @title A whitelist contract for NFT lovers
-/// @author Amir Rahimi
+/// @author Aratta Labs
 /// @notice Read the use cases before deploying the contract
 /// @dev Run test before deploying, you can find deployed contract addresses in deployed dir
 contract WhitelistFactory is Ownable(msg.sender) {
